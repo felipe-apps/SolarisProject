@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971B2BA4258E51920031DB68 /* PlanetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971B2BA3258E51920031DB68 /* PlanetList.swift */; };
+		973857C72593A521003BC014 /* PlanetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973857C62593A521003BC014 /* PlanetInfo.swift */; };
+		97556D96258136090036DA49 /* PlanetCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97556D95258136090036DA49 /* PlanetCompare.swift */; };
+		976DC5C1259A7547000F432F /* SizeComparisonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976DC5C0259A7547000F432F /* SizeComparisonItem.swift */; };
+		97711F5D25758F4D0007A06B /* SolarisProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97711F5C25758F4D0007A06B /* SolarisProjectApp.swift */; };
+		97711F5F25758F4D0007A06B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97711F5E25758F4D0007A06B /* Menu.swift */; };
+		97711F6125758F550007A06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97711F6025758F550007A06B /* Assets.xcassets */; };
+		97711F6425758F550007A06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97711F6325758F550007A06B /* Preview Assets.xcassets */; };
+		97711F6D25758FAD0007A06B /* fugaz-one.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97711F6C25758FAD0007A06B /* fugaz-one.ttf */; };
+		97711F7B2575B1240007A06B /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97711F7A2575B1240007A06B /* BlurView.swift */; };
+		979169B82575D92600B90414 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979169B72575D92600B90414 /* SideBar.swift */; };
+		9792E05525ABEE1000B3634E /* GravityGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792E05425ABEE1000B3634E /* GravityGame.swift */; };
+		9792E05925ABEF8100B3634E /* GravityPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792E05825ABEF8100B3634E /* GravityPlanet.swift */; };
+		9792E05C25ABFE2600B3634E /* HeightMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792E05B25ABFE2600B3634E /* HeightMeter.swift */; };
+		979701452576D711009944E5 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979701442576D711009944E5 /* MenuData.swift */; };
+		979701482576DA92009944E5 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979701472576DA92009944E5 /* MenuItem.swift */; };
+		9797014D2576E49A009944E5 /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9797014C2576E49A009944E5 /* SolarSystem.swift */; };
+		97970151257721F9009944E5 /* SideBarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97970150257721F9009944E5 /* SideBarData.swift */; };
+		979940AD2598150C00B7ED8A /* PlanetNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979940AC2598150C00B7ED8A /* PlanetNumbers.swift */; };
+		97F642D12578637D0023B666 /* SolarSystemItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F642D02578637D0023B666 /* SolarSystemItem.swift */; };
+		97F642D425786B6F0023B666 /* SolarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F642D325786B6F0023B666 /* SolarData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		971B2BA3258E51920031DB68 /* PlanetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetList.swift; sourceTree = "<group>"; };
+		973857C62593A521003BC014 /* PlanetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInfo.swift; sourceTree = "<group>"; };
+		97556D95258136090036DA49 /* PlanetCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCompare.swift; sourceTree = "<group>"; };
+		976DC5C0259A7547000F432F /* SizeComparisonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeComparisonItem.swift; sourceTree = "<group>"; };
+		97711F5925758F4D0007A06B /* SolarisProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarisProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97711F5C25758F4D0007A06B /* SolarisProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarisProjectApp.swift; sourceTree = "<group>"; };
+		97711F5E25758F4D0007A06B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		97711F6025758F550007A06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97711F6325758F550007A06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97711F6525758F550007A06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97711F6C25758FAD0007A06B /* fugaz-one.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fugaz-one.ttf"; sourceTree = "<group>"; };
+		97711F7A2575B1240007A06B /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		979169B72575D92600B90414 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		9792E05425ABEE1000B3634E /* GravityGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityGame.swift; sourceTree = "<group>"; };
+		9792E05825ABEF8100B3634E /* GravityPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityPlanet.swift; sourceTree = "<group>"; };
+		9792E05B25ABFE2600B3634E /* HeightMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightMeter.swift; sourceTree = "<group>"; };
+		979701442576D711009944E5 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		979701472576DA92009944E5 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		9797014C2576E49A009944E5 /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
+		97970150257721F9009944E5 /* SideBarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarData.swift; sourceTree = "<group>"; };
+		979940AC2598150C00B7ED8A /* PlanetNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNumbers.swift; sourceTree = "<group>"; };
+		97F642D02578637D0023B666 /* SolarSystemItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemItem.swift; sourceTree = "<group>"; };
+		97F642D325786B6F0023B666 /* SolarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97711F5625758F4D0007A06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97711F5025758F4D0007A06B = {
+			isa = PBXGroup;
+			children = (
+				97711F5B25758F4D0007A06B /* SolarisProject */,
+				97711F5A25758F4D0007A06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97711F5A25758F4D0007A06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97711F5925758F4D0007A06B /* SolarisProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97711F5B25758F4D0007A06B /* SolarisProject */ = {
+			isa = PBXGroup;
+			children = (
+				97711F5C25758F4D0007A06B /* SolarisProjectApp.swift */,
+				979701532577222F009944E5 /* Model */,
+				97DD3B802577265E0008AA8F /* Screens */,
+				9797D5B725805DB400D7A0CB /* Items */,
+				97711F7A2575B1240007A06B /* BlurView.swift */,
+				97711F6025758F550007A06B /* Assets.xcassets */,
+				97711F6525758F550007A06B /* Info.plist */,
+				97711F6C25758FAD0007A06B /* fugaz-one.ttf */,
+				97711F6225758F550007A06B /* Preview Content */,
+			);
+			path = SolarisProject;
+			sourceTree = "<group>";
+		};
+		97711F6225758F550007A06B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97711F6325758F550007A06B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9792E05325ABEDBA00B3634E /* GravityGame */ = {
+			isa = PBXGroup;
+			children = (
+				9792E05425ABEE1000B3634E /* GravityGame.swift */,
+			);
+			path = GravityGame;
+			sourceTree = "<group>";
+		};
+		979701532577222F009944E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97970150257721F9009944E5 /* SideBarData.swift */,
+				979701442576D711009944E5 /* MenuData.swift */,
+				97F642D325786B6F0023B666 /* SolarData.swift */,
+				971B2BA3258E51920031DB68 /* PlanetList.swift */,
+				973857C62593A521003BC014 /* PlanetInfo.swift */,
+				9792E05825ABEF8100B3634E /* GravityPlanet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9797D5B725805DB400D7A0CB /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				979701472576DA92009944E5 /* MenuItem.swift */,
+				97F642D02578637D0023B666 /* SolarSystemItem.swift */,
+				976DC5C0259A7547000F432F /* SizeComparisonItem.swift */,
+				9792E05B25ABFE2600B3634E /* HeightMeter.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		97DD3B802577265E0008AA8F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				97E15403259E6B0600356783 /* Menu */,
+				97E15404259E6B2000356783 /* Solar System */,
+				97E15405259E6B3000356783 /* Planet Compare */,
+				9792E05325ABEDBA00B3634E /* GravityGame */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		97E15403259E6B0600356783 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				979169B72575D92600B90414 /* SideBar.swift */,
+				97711F5E25758F4D0007A06B /* Menu.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		97E15404259E6B2000356783 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				9797014C2576E49A009944E5 /* SolarSystem.swift */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
+		97E15405259E6B3000356783 /* Planet Compare */ = {
+			isa = PBXGroup;
+			children = (
+				97556D95258136090036DA49 /* PlanetCompare.swift */,
+				979940AC2598150C00B7ED8A /* PlanetNumbers.swift */,
+			);
+			path = "Planet Compare";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97711F5825758F4D0007A06B /* SolarisProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97711F6825758F550007A06B /* Build configuration list for PBXNativeTarget "SolarisProject" */;
+			buildPhases = (
+				97711F5525758F4D0007A06B /* Sources */,
+				97711F5625758F4D0007A06B /* Frameworks */,
+				97711F5725758F4D0007A06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarisProject;
+			productName = SolarisProject;
+			productReference = 97711F5925758F4D0007A06B /* SolarisProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97711F5125758F4D0007A06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					97711F5825758F4D0007A06B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 97711F5425758F4D0007A06B /* Build configuration list for PBXProject "SolarisProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97711F5025758F4D0007A06B;
+			productRefGroup = 97711F5A25758F4D0007A06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97711F5825758F4D0007A06B /* SolarisProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97711F5725758F4D0007A06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97711F6425758F550007A06B /* Preview Assets.xcassets in Resources */,
+				97711F6125758F550007A06B /* Assets.xcassets in Resources */,
+				97711F6D25758FAD0007A06B /* fugaz-one.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97711F5525758F4D0007A06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9792E05C25ABFE2600B3634E /* HeightMeter.swift in Sources */,
+				97970151257721F9009944E5 /* SideBarData.swift in Sources */,
+				979169B82575D92600B90414 /* SideBar.swift in Sources */,
+				976DC5C1259A7547000F432F /* SizeComparisonItem.swift in Sources */,
+				97711F5F25758F4D0007A06B /* Menu.swift in Sources */,
+				9792E05925ABEF8100B3634E /* GravityPlanet.swift in Sources */,
+				971B2BA4258E51920031DB68 /* PlanetList.swift in Sources */,
+				979940AD2598150C00B7ED8A /* PlanetNumbers.swift in Sources */,
+				979701452576D711009944E5 /* MenuData.swift in Sources */,
+				97556D96258136090036DA49 /* PlanetCompare.swift in Sources */,
+				973857C72593A521003BC014 /* PlanetInfo.swift in Sources */,
+				97F642D425786B6F0023B666 /* SolarData.swift in Sources */,
+				979701482576DA92009944E5 /* MenuItem.swift in Sources */,
+				9797014D2576E49A009944E5 /* SolarSystem.swift in Sources */,
+				9792E05525ABEE1000B3634E /* GravityGame.swift in Sources */,
+				97711F7B2575B1240007A06B /* BlurView.swift in Sources */,
+				97F642D12578637D0023B666 /* SolarSystemItem.swift in Sources */,
+				97711F5D25758F4D0007A06B /* SolarisProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97711F6625758F550007A06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97711F6725758F550007A06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97711F6925758F550007A06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "\"SolarisProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GZTFJ44QJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SolarisProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fdapps.solarisapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		97711F6A25758F550007A06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "\"SolarisProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GZTFJ44QJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SolarisProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fdapps.solarisapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97711F5425758F4D0007A06B /* Build configuration list for PBXProject "SolarisProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97711F6625758F550007A06B /* Debug */,
+				97711F6725758F550007A06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97711F6825758F550007A06B /* Build configuration list for PBXNativeTarget "SolarisProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97711F6925758F550007A06B /* Debug */,
+				97711F6A25758F550007A06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97711F5125758F4D0007A06B /* Project object */;
+}
